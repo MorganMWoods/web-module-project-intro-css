@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10%;
+}
+
+
+.buttons {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    align-content: center;
+    position: relative;
+    left: 30%;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #FF764E;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: #5ED3EB;
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: #FFCD69;
+    border-radius: 5px;
+}
+/*==========================================================================================================================================*/
+.body h1 {
+    font-family: 'Chelsea Market', cursive;
+    display: inline-block;
+    height: 100px;
+    padding: 5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.body h2 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: inline;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+.body h3 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;     
+}
+.body .yosemite {
+    float: left;
+    border-radius: 50%;
+    width: 25%;
+    height: 90%;
+    padding: 5%;
+    display: inline-block;
+}
+
+/*==========================================================================================================================================*/
+.bodytwo {
+    background-color: #DDB9A3;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+}
+
+/*==========================================================================================================================================*/
+.bodythree {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.bodythree p {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.bodythree img {
+    width: 10%;
+    height: auto;
+
+}
+
+
+#footimg img {
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
