@@ -1,28 +1,64 @@
-html, body, div, span, applet, object, iframe,  
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
-a, abbr, acronym, address, big, cite, code,  
-del, dfn, em, img, ins, kbd, q, s, samp,  
-small, strike, strong, sub, sup, tt, var,  
-b, u, i, center,  
-dl, dt, dd, ol, ul, li,  
-fieldset, form, label, legend,  
-table, caption, tbody, tfoot, thead, tr, th, td,  
-article, aside, canvas, details, embed,  
-figure, figcaption, footer, header, hgroup,  
-menu, nav, output, ruby, section, summary,  
-time, mark, audio, video {  
-margin: 0;  
-padding: 0;  
-border: 0;  
-font-size: 100%;  
-font: inherit;  
-vertical-align: baseline;  
-}
-
-
 * {
     padding: 0;
     margin: 0;
     max-width: 100%;
     box-sizing: border-box;
+}
+
+body {
+    margin: 10%;
+}
+nav {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 5%;
+    border-radius: 10%;
+    border: 3px solid white;
+    margin: 0 auto;
+    
+}
+/*==========================================================================================================================================*/
+body h1 {
+    display: inline-block;
+    width: 25%;
+    height: 100px;
+    padding: 5%;
+}
+
+body h2 {
+    display: inline;
+    width: 25%;
+    height: 100px;
+    padding: 5%;
+    
+}
+body h3 {
+    display: inline-block;
+        
+}
+body .yosemite {
+    border-radius: 70%;
+    width: 25%;
+    height: auto;
+    display: inline-block;
+}
+
+/*==========================================================================================================================================*/
+.bodytwo {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+/*==========================================================================================================================================*/
+.bodythree {
+    text-align: center;
+}
+
+.bodythree img {
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
 }
